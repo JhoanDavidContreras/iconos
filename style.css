@@ -1,0 +1,19 @@
+.container-ul li{
+    margin-left: 45px;
+    margin-bottom: 25px;
+    font-family: 'Goldman', cursive;
+    font-size: 2em;
+    padding-left: 25px;
+}
+.container-ul li::marker{
+    font-family: 'Font Awesome 5 Free';
+    content: '\f21b';
+    font-weight: 900;
+    color: red;
+    font-size: 2em;
+}
+.container-ul li:nth-child(2)::marker{
+    content: '\f5fd';
+    font-weight: 900;
+    color: orchi
+}
